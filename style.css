@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+
+
+:root {
+    --fonte1: 'Dancing Script', cursive;
+    --fonte2: 'Public Sans', sans-serif;
+    --fonte3: 'Secular One', sans-serif;
+    --fonte4: 'Grand Hotel', cursive;
+    --fonte5:'Rubik Moonrocks', cursive;
+    --fonte6: 'Pacifico', cursive;
+}
+
+body{
+    font-family: 'Glory', sans-serif;
+    margin: 0%;
+    background: #eee;
+    height: auto;
+
+}
+
+h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0%;
+    font-size: 4vw;
+    font-size: 4vh;
+    text-shadow: 1px 0.9px 2px rgba(0, 0, 0, 0.452);
+}    
+
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+
+}
+
+h2 > span{
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+.nome {
+    font-family: var(--fonte2);
+}
+
+span > a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #888;
+}
+
+span > a:hover{
+    text-decoration: underline;
+}
+
+.sociais{
+    display: flex;
+    padding: 10px;
+    width: auto;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 50vw;
+}
+
+.sociais img{
+    
+    width: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.icon:hover{
+    box-shadow: 1px 1px 15px #5e5d5d65;
+}
+
+
+img{
+    display: block;
+    width: 100%;
+    align-items: center;
+}
+
+.sociais .icon:nth-child(1){
+    background-color: white;
+    padding: 0px;
+    
+}
+
+.sociais .icon:nth-child(2){
+    background-color: white;
+    padding: 0px;
+    
+
+}
+
+.sociais .icon:nth-child(3){
+    background-color: white;
+    padding: 0px;
+   
+}
+.sociais .icon:nth-child(4){
+    background-color: white;
+    padding: 0px;
+    
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1); 
+}
+
+#landing{
+    background: #fff;
+}
+
+
+#landing-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-text h2{
+    color:#888
+  
+}
+
+#landing-image{
+    background: url(imagens/header1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+    
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: backgroung500ms ease-in;
+
+}
+
+.btn:hover{
+    background-color: #f4f4f4;
+}
+
+#header{
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+#header h2 {
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.caption{
+    padding: 0.8rem;
+    text-align: center;
+    font-family: var(--fonte2) ;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+    
+
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-size: 5vw;
+    font-size: 5vh;
+}
+
+footer p{
+    font-size: 2vw;
+    font-size: 2vh; 
+}
